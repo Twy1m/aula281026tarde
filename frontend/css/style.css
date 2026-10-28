@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: black;
+    font-family: Helvetica;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+}
+
+main{
+    margin-top: 1rem;
+}
+h1{
+    font-size: 1.25rem
+}
+
+input{
+    border: black, 6px;
+    background-color: white;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+th {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: black;
+}

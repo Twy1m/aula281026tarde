@@ -1,0 +1,33 @@
+###Cadastrar funcionario
+
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "nome": "nome1",
+    "email": "email1",
+    "senha": "senha1"
+}
+
+
+###Login de funcionario
+# @name valToken
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "email1",
+    "senha": "senha1"
+}
+
+###Cadastrar motorista
+POST  http://localhost:3000/motorista
+Authorization: {{valToken.response.body.token}}
+Content-Type: application/json
+
+{
+    "nome": "vanderlei",
+    "cnh": "1234",
+    "cpf": "12345678912",
+    "telefone": "12345678912"
+}
